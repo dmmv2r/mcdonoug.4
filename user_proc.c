@@ -4,11 +4,9 @@
 #include <unistd.h>
 
 int main(int argc, char* argv[]) {
-	printf("START OSS\n");
+	printf("START USER\n");
 
-	char* arr[] = {"./user_proc", NULL};
-	execvp(arr[0], arr);
 
-	printf("END OSS\n");
+	printf("END USER\n");
 	return 0;
 }
